@@ -62,10 +62,9 @@ button:active{
     background-color: #ffca80;
 }
 p{
+    margin-top: 25px;
     font-size: medium;
-    position: fixed;
-    top: 600px;
-    left: 1190px;
+    text-align: center;
 }
 @media only screen and (max-width:320px) {
     h1{
@@ -90,5 +89,8 @@ p{
     button{
         width: 35px;
         height: 35px;
+    }
+    p{
+        display: none;
     }
 }
