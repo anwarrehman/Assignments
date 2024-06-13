@@ -3,22 +3,22 @@ body{
     padding: 0;
 }
 h1{
-    margin: 0;
+    margin: 10;
     text-align: center;
     text-decoration: underline;
 }
 #container{
     margin: 0 auto;
     margin-top: 10px;
-    width: 255px;
-    height: 380px;
+    width: 300px;
+    height: 460px;
     background-color: #000000;
     border-radius: 10px;
 }
 .calculator{
     border: none;
     border-radius: 10px;
-    width: 250px;
+    width: 295px;
     height: 50px;
     font-size: 1.8em;
     color: #ffffff;
@@ -26,18 +26,18 @@ h1{
 }
 .content{
     margin-top: 15px;
-    width: 250px;
-    height: 325px;
+    width: 300px;
+    height: 400px;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 15px;
 }
 button{
-    margin: 5px;
-    width: 35px;
-    height: 35px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     border: none;
     background-color: #4d4d4d;
@@ -62,10 +62,10 @@ button:active{
     background-color: #ffca80;
 }
 p{
-    font-size: small;
+    font-size: medium;
     position: fixed;
-    top: 400px;
-    left: 800px;
+    top: 600px;
+    left: 1190px;
 }
 @media only screen and (max-width:320px) {
     h1{
@@ -74,7 +74,7 @@ p{
     #container{
         margin: 0 auto;
         width: 290px;
-        height: 370px;
+        height: 450px;
     }
     .calculator{
         width: 285px;
@@ -86,8 +86,6 @@ p{
         width: 250px;
         justify-content: space-evenly;
         gap: 10px;
-        /* line-height: 0px; */
-        /* margin-left: 15px; */
     }
     button{
         width: 35px;
